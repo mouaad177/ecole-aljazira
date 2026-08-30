@@ -1,0 +1,19 @@
+CHECKLIST AVANT LIVRAISON
+
+[ ] Valider la structure
+[ ] Confirmer les coordonnées
+[ ] Remplacer les placeholders
+[ ] Obtenir les photos originales
+[ ] Vérifier les autorisations photos
+[ ] Ajouter téléphone / WhatsApp
+[ ] Ajouter horaires
+[ ] Ajouter email
+[ ] Connecter Google Maps
+[ ] Rendre le formulaire fonctionnel
+[ ] Tester mobile
+[ ] Tester desktop
+[ ] Vérifier tous les liens
+[ ] Ajouter favicon
+[ ] Vérifier SEO
+[ ] Déployer
+[ ] Faire valider par l'école

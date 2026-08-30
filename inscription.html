@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <meta
+        name="description"
+        content="Demande de préinscription à El Jazira School à Casablanca."
+    >
+
+    <title>Préinscription | El Jazira School</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+
+    <header class="site-header">
+
+        <div class="container nav-wrap">
+
+            <a class="brand" href="index.html">
+
+                <img
+                    src="images/logo.png"
+                    alt="Logo El Jazira School"
+                >
+
+                <span>
+                    EL JAZIRA
+                    <small>SCHOOL</small>
+                </span>
+
+            </a>
+
+
+            <button class="menu-toggle">
+                ☰
+            </button>
+
+
+            <nav class="nav">
+
+                <a href="index.html">
+                    Accueil
+                </a>
+
+                <a href="ecole.html">
+                    L'école
+                </a>
+
+                <a href="activites.html">
+                    Activités
+                </a>
+
+                <a href="galerie.html">
+                    Galerie
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+                <a
+                    class="nav-cta active"
+                    href="inscription.html"
+                >
+                    Préinscription
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section class="page-hero">
+
+            <div class="container">
+
+                <p class="eyebrow">
+                    Préinscription
+                </p>
+
+                <h1>
+                    Construisons ensemble
+                    <br>
+
+                    <span>
+                        les premiers pas de votre enfant.
+                    </span>
+                </h1>
+
+                <p>
+                    Remplissez ce formulaire pour effectuer une demande
+                    de préinscription et être contacté par notre équipe.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <section class="section">
+
+            <div class="container contact-grid">
+
+
+                <div class="contact-info">
+
+                    <p class="eyebrow">
+                        Rejoindre El Jazira
+                    </p>
+
+                    <h2>
+                        Une première étape vers son avenir.
+                    </h2>
+
+                    <p>
+                        Vous souhaitez inscrire votre enfant à El Jazira
+                        School ? Remplissez ce formulaire et notre équipe
+                        vous contactera afin de vous accompagner dans les
+                        prochaines étapes.
+                    </p>
+
+
+                    <div class="contact-row">
+
+                        <span>
+                            👶
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Crèche
+                            </strong>
+
+                            <p>
+                                Un environnement adapté aux premiers
+                                apprentissages et à l'éveil.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-row">
+
+                        <span>
+                            🎒
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Maternelle & Préscolaire
+                            </strong>
+
+                            <p>
+                                Accompagner chaque enfant dans ses premières
+                                années d'apprentissage.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-row">
+
+                        <span>
+                            📞
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Besoin d'informations ?
+                            </strong>
+
+                            <p>
+                                Notre équipe reste disponible pour répondre
+                                à vos questions.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <form
+                    class="contact-form inscription-form"
+                    id="inscription-form"
+                >
+
+                    <h3>
+                        Demande de préinscription
+                    </h3>
+
+
+                    <label>
+
+                        Nom et prénom du parent *
+
+                        <input
+                            type="text"
+                            name="parent_name"
+                            placeholder="Votre nom et prénom"
+                            required
+                        >
+
+                    </label>
+
+
+                    <label>
+
+                        Numéro de téléphone *
+
+                        <input
+                            type="tel"
+                            name="phone"
+                            placeholder="+212 ..."
+                            required
+                        >
+
+                    </label>
+
+
+                    <label>
+
+                        Adresse email
+
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="votre@email.com"
+                        >
+
+                    </label>
+
+
+                    <label>
+
+                        Nom et prénom de l'enfant *
+
+                        <input
+                            type="text"
+                            name="child_name"
+                            placeholder="Nom et prénom de l'enfant"
+                            required
+                        >
+
+                    </label>
+
+
+                    <label>
+
+                        Date de naissance de l'enfant *
+
+                        <input
+                            type="date"
+                            name="birth_date"
+                            required
+                        >
+
+                    </label>
+
+
+                    <label>
+
+                        Niveau souhaité *
+
+                        <select
+                            name="level"
+                            required
+                        >
+
+                            <option value="">
+                                Sélectionnez un niveau
+                            </option>
+
+                            <option value="creche">
+                                Crèche
+                            </option>
+
+                            <option value="maternelle">
+                                Maternelle
+                            </option>
+
+                            <option value="prescolaire">
+                                Préscolaire
+                            </option>
+
+                        </select>
+
+                    </label>
+
+
+                    <label>
+
+                        Message ou informations complémentaires
+
+                        <textarea
+                            name="message"
+                            rows="5"
+                            placeholder="Votre message..."
+                        ></textarea>
+
+                    </label>
+
+
+                    <button
+                        class="btn btn-primary"
+                        type="submit"
+                    >
+                        Envoyer ma demande
+                    </button>
+
+
+                    <p class="form-note">
+                        Les informations transmises seront utilisées
+                        uniquement pour traiter votre demande de
+                        préinscription.
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <section class="section soft">
+
+            <div class="container insta-box">
+
+                <div>
+
+                    <p class="eyebrow">
+                        Une question ?
+                    </p>
+
+                    <h2>
+                        Nous sommes à votre écoute.
+                    </h2>
+
+                    <p>
+                        Retrouvez également l'actualité et les activités
+                        de l'école sur notre page Instagram.
+                    </p>
+
+                </div>
+
+
+                <a
+                    class="btn btn-dark"
+                    href="contact.html"
+                >
+                    Nous contacter
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+
+            <div>
+
+                <img
+                    src="images/logo.png"
+                    alt="Logo El Jazira School"
+                    class="footer-logo"
+                >
+
+                <p>
+                    Maternelle · Préscolaire
+                    <br>
+                    Casablanca · Oulfa
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Navigation
+                </h4>
+
+                <a href="index.html">
+                    Accueil
+                </a>
+
+                <a href="ecole.html">
+                    L'école
+                </a>
+
+                <a href="activites.html">
+                    Activités
+                </a>
+
+                <a href="galerie.html">
+                    Galerie
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Préinscription
+                </h4>
+
+                <a href="inscription.html">
+                    Faire une demande
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Réseaux
+                </h4>
+
+                <a
+                    href="https://www.instagram.com/ecole_eljazira123/"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    Instagram
+                </a>
+   <a
+    href="https://wa.me/212663092723"
+    class="whatsapp-button"
+    target="_blank"
+    aria-label="Nous contacter sur WhatsApp"
+>
+    <img
+        src="images/whatssap.png"
+        alt="WhatsApp"
+    >
+</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="container copyright">
+
+            © <span id="year"></span>
+            El Jazira School
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
