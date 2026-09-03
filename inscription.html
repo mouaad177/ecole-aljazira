@@ -204,9 +204,30 @@
 
 
                 <form
-                    class="contact-form inscription-form"
-                    id="inscription-form"
-                >
+                        class="contact-form inscription-form"
+                        id="inscription-form"
+                        action="https://api.web3forms.com/submit"
+                        method="POST"
+                    >
+                    <input type="hidden" name="access_key" value="e23cf061-3109-495f-9252-63d9b3743cdc">
+
+                        <input
+                           type="hidden"
+                            name="subject"
+                             value="Nouvelle demande de préinscription - El Jazira School"
+                            >
+
+<input
+    type="hidden"
+    name="from_name"
+    value="El Jazira School"
+>
+
+<input
+    type="checkbox"
+    name="botcheck"
+    style="display:none"
+>
 
                     <h3>
                         Demande de préinscription

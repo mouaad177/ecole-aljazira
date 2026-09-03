@@ -200,59 +200,91 @@
 
 
                 <form
-                    class="contact-form"
-                    onsubmit="return false"
-                >
+    class="contact-form"
+    action="https://api.web3forms.com/submit"
+    method="POST"
+>
 
-                    <h3>
-                        Une question ?
-                    </h3>
+    <input
+        type="hidden"
+        name="access_key"
+        value="e23cf061-3109-495f-9252-63d9b3743cdc"
+    >
 
+    <input
+        type="hidden"
+        name="subject"
+        value="Nouveau message - El Jazira School"
+    >
 
-                    <label>
+    <input
+        type="hidden"
+        name="from_name"
+        value="El Jazira School"
+    >
 
-                        Nom
-
-                        <input
-                            type="text"
-                            placeholder="Votre nom"
-                        >
-
-                    </label>
-
-
-                    <label>
-
-                        Email
-
-                        <input
-                            type="email"
-                            placeholder="votre@email.com"
-                        >
-
-                    </label>
+    <input
+        type="checkbox"
+        name="botcheck"
+        style="display:none"
+    >
 
 
-                    <label>
-
-                        Message
-
-                        <textarea
-                            rows="5"
-                            placeholder="Votre message..."
-                        ></textarea>
-
-                    </label>
+    <h3>
+        Une question ?
+    </h3>
 
 
-                    <button
-                        class="btn btn-primary"
-                        type="submit"
-                    >
-                        Envoyer
-                    </button>
+    <label>
 
-                </form>
+        Nom
+
+        <input
+            type="text"
+            name="name"
+            placeholder="Votre nom"
+            required
+        >
+
+    </label>
+
+
+    <label>
+
+        Email
+
+        <input
+            type="email"
+            name="email"
+            placeholder="votre@email.com"
+            required
+        >
+
+    </label>
+
+
+    <label>
+
+        Message
+
+        <textarea
+            name="message"
+            rows="5"
+            placeholder="Votre message..."
+            required
+        ></textarea>
+
+    </label>
+
+
+    <button
+        class="btn btn-primary"
+        type="submit"
+    >
+        Envoyer
+    </button>
+
+</form>
 
             </div>
 
