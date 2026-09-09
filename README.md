@@ -59,5 +59,6 @@ Cloudflare Worker
         ↓
 Réponse JSON
 
+~~~~~> instagram api EN COURS
 
-~~~~~> instagram api EN COURS 
+lien pour suivre le site et deploiement ; **https://mouaad177.github.io/ecole-aljazira/index.html**
